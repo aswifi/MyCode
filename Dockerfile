@@ -4,7 +4,7 @@ ENV TZ=Asia/Shanghai
 RUN apt-get update
 RUN apt-get install -y curl
 WORKDIR /app
-COPY getCloudtorrent.sh /app
-RUN chmod +x /app/getCloudtorrent.sh
-RUN sh /app/getCloudtorrent.sh
-CMD ["/app/cloud-torrent_linux_amd64"]
+COPY getApp.sh /app
+RUN chmod +x /app/getApp.sh
+RUN sh /app/getApp.sh
+CMD ["/app/gonelist_linux_amd64/gonelist_linux_amd64"]
