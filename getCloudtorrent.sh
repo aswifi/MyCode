@@ -1,6 +1,6 @@
 #!/bin/bash
-version=$PAN_INDEX_VERSION
-echo $PAN_INDEX_VERSION
+version=$INDEX_VERSION
+echo $INDEX_VERSION
 version="1.3.8"
 if [ "$version" = "" ]
 then
