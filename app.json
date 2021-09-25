@@ -5,7 +5,7 @@
     "MyCode", "A Test Project"
   ],
   "env": {
-    "PAN_INDEX_VERSION": {
+    "INDEX_VERSION": {
       "description": "默认为最新版",
       "required": false,
       "value": ""
