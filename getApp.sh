@@ -10,6 +10,6 @@ then
 fi
 curl -sOL "https://github.com/cugxuan/gonelist/releases/download/{$version}/gonelist_linux_amd64.tar.gz"
 sha256sum "gonelist_linux_amd64.tar.gz"
-#gzip -d cloud-torrent_linux_amd64.gz
+#gzip -d cloud-torrent_linux_amd64.gz //Unzip .gz file
 tar -zxf gonelist_linux_amd64.tar.gz && cd gonelist_linux_amd64
 chmod +x gonelist_linux_amd64
