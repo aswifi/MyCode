@@ -1,0 +1,20 @@
+{
+  "name": "MyCode",
+  "description": "A Test Project",
+  "keywords": [
+    "MyCode", "A Test Project"
+  ],
+  "env": {
+    "PAN_INDEX_VERSION": {
+      "description": "默认为最新版",
+      "required": false,
+      "value": ""
+    }
+  },
+  "website": "https://github.com/aswifi/MyCode",
+  "repository": "https://github.com/aswifi/MyCode",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
