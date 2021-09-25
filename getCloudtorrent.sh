@@ -8,7 +8,7 @@ then
         | grep '"tag_name":' \
         | sed -E 's/.*"([^"]+)".*/\1/'`
 fi
-curl -sOL "https://github.com/boypt/simple-torrent/releases/download/${version}/cloud-torrent_linux_amd64.gz
+curl -sOL "https://github.com/boypt/simple-torrent/releases/download/${version}/cloud-torrent_linux_amd64.gz"
 sha256sum "cloud-torrent_linux_amd64.gz"
 tar -zxf cloud-torrent_linux_amd64.gz && cd cloud-torrent_linux_amd64
 chmod +x cloud-torrent_linux_amd64
