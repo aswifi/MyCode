@@ -7,4 +7,4 @@ WORKDIR /app
 COPY getCloudtorrent.sh /app
 RUN chmod +x /app/getCloudtorrent.sh
 RUN sh /app/getCloudtorrent.sh
-CMD ["/app/cloud-torrent_linux_amd64/cloud-torrent_linux_amd64"]
+CMD ["/app/cloud-torrent_linux_amd64"]
