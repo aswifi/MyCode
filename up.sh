@@ -6,7 +6,7 @@ apt-get upgrade -y
 
 apt-get dist-upgrade -y
 
-do-release-upgrade
+do-release-upgrade -y
 
 apt-get autoremove -y
 
