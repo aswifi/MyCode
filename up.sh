@@ -1,13 +1,13 @@
 #!/bin/bash
 
-apt-get update
+sudo apt-get update
 
-apt-get upgrade -y
+sudo apt-get upgrade -y
 
-apt-get dist-upgrade -y
+sudo apt-get dist-upgrade -y
 
-# do-release-upgrade
+# sudo do-release-upgrade
 
-apt-get autoremove -y
+sudo apt-get autoremove -y
 
-apt-get autoclean
+sudo apt-get autoclean
